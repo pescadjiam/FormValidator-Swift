@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FormValidator'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FormValidator.'
+  s.summary          = 'An easier way to validate your forms'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,12 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'With this CocoaPod, your form validation will become way more easier!!'
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/FormValidator'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/pescadjiam/FormValidator-Swift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Miguel Pescadinha' => 'pescalogin@gmail.com' }
   s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/FormValidator.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 

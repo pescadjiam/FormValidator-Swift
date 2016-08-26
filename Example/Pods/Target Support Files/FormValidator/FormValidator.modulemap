@@ -1,0 +1,6 @@
+framework module FormValidator {
+  umbrella header "FormValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}

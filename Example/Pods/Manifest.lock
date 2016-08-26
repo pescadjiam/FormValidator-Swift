@@ -1,0 +1,16 @@
+PODS:
+  - FormValidator (0.1.0)
+
+DEPENDENCIES:
+  - FormValidator (from `../`)
+
+EXTERNAL SOURCES:
+  FormValidator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FormValidator: 49d1b01aac475893b3ad191605263bf4e5100a40
+
+PODFILE CHECKSUM: cc8f8011c0e0bdb40983a6e5d88d0f48730f3daf
+
+COCOAPODS: 1.0.1
