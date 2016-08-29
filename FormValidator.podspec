@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/pescadjiam/FormValidator-Swift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Miguel Pescadinha' => 'pescalogin@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/FormValidator.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pescadjiam/FormValidator-Swift.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
