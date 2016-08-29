@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		055A896E7977803651EDF8EA9136263B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		14A68037F0DE60F5505AC8225AFECC67 /* FormValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91AEB1AEBF295A509443ECFE431114 /* FormValidator-dummy.m */; };
 		22C784F1EFA7824DA73330187D4D2D8C /* Pods-FormValidator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 644780F28206DACA8116F0485E14A88E /* Pods-FormValidator_Tests-dummy.m */; };
-		2307BEB67F3FE450204DBB3A878674BA /* FormValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F91AEB1AEBF295A509443ECFE431114 /* FormValidator-dummy.m */; };
 		2ABD3795C3857D3BD9D2952EA8AED9F6 /* Pods-FormValidator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5BB3DE0F2543C718AAF97CE2554B0E /* Pods-FormValidator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BA52AC90EAF1E2CE1CC5C647F40086C /* FormValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD8D0D33A78478D1B47853EAB335BDD /* FormValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D4725C0F11D719537B89E47FDCEF466 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5664D1D56DF04CB2BDAF10F5F937A8FC /* FormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD56B2C11EA8F6CE77C47F29213D4 /* FormValidator.swift */; };
+		68F8F628B1A2F3D803A35AAC9DCA9FEA /* FormValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD8D0D33A78478D1B47853EAB335BDD /* FormValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D994FF0455953AFC18F577E458DFE0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		87812F150253A532DE67B95C33D4A780 /* Pods-FormValidator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FA167BC8341E370ED990C493AA72AC /* Pods-FormValidator_Example-dummy.m */; };
 		8AA1AA6551B384321A8E4F59CF12B860 /* Pods-FormValidator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C81F1B9319912698AE836DC320DA05D /* Pods-FormValidator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF7567BE1D70A2CF00C4AA99 /* FormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7567BD1D70A2CF00C4AA99 /* FormValidator.swift */; };
-		EF7567C01D70A2ED00C4AA99 /* FVModelField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7567BF1D70A2ED00C4AA99 /* FVModelField.swift */; };
+		AD6E88E7D5E4EFC3126ED9D61F84F88B /* FVModelField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7286E23396177D1A69AC8798803CA4C /* FVModelField.swift */; };
+		B74BA9C7190BE25519E35246C466AB55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 88E2229E3C10A5761FE2FF725A743126;
+			remoteGlobalIDString = 02699E18DB5B958E71F3A0B2E5A43EAC;
 			remoteInfo = FormValidator;
 		};
 /* End PBXContainerItemProxy section */
@@ -42,6 +42,7 @@
 		5C81F1B9319912698AE836DC320DA05D /* Pods-FormValidator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FormValidator_Example-umbrella.h"; sourceTree = "<group>"; };
 		63104FC4B252884E062118E238DA6C13 /* FormValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FormValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		644780F28206DACA8116F0485E14A88E /* Pods-FormValidator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FormValidator_Tests-dummy.m"; sourceTree = "<group>"; };
+		74BAD56B2C11EA8F6CE77C47F29213D4 /* FormValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormValidator.swift; sourceTree = "<group>"; };
 		78C05AB0E1C635235D7B1981A91F7706 /* Pods-FormValidator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FormValidator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		83FA167BC8341E370ED990C493AA72AC /* Pods-FormValidator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FormValidator_Example-dummy.m"; sourceTree = "<group>"; };
 		8BA61F0C9B9C1F2E99DD8A1787DF35E1 /* Pods-FormValidator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FormValidator_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -58,10 +59,9 @@
 		DE4FE51FD9894B50E70F4E9277E156CB /* Pods-FormValidator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FormValidator_Tests-resources.sh"; sourceTree = "<group>"; };
 		E330523049161A5992365278D925C80A /* Pods-FormValidator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FormValidator_Example.modulemap"; sourceTree = "<group>"; };
 		E9A2ED93BCFB17778E9F30C2BB8A1630 /* Pods_FormValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF7567BD1D70A2CF00C4AA99 /* FormValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormValidator.swift; sourceTree = "<group>"; };
-		EF7567BF1D70A2ED00C4AA99 /* FVModelField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FVModelField.swift; sourceTree = "<group>"; };
 		F1C860FD40DD4504C98006B3CDDAC4AC /* Pods-FormValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FormValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F3444E1AEE6F5A6173E9E73D65542E32 /* FormValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FormValidator.xcconfig; sourceTree = "<group>"; };
+		F7286E23396177D1A69AC8798803CA4C /* FVModelField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FVModelField.swift; sourceTree = "<group>"; };
 		F7B061245C4C496CE8857C83A2B3DF03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7CDB61CEC73EFD84F80802842487216 /* Pods-FormValidator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FormValidator_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +75,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D5FE1D92EF45DA47D6EA8785868F4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74BA9C7190BE25519E35246C466AB55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B470B790BEBB8688D5EC35B97867D062 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,23 +91,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F28E24FED0034AE5EE138249747D9213 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D4725C0F11D719537B89E47FDCEF466 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1141EE7CD981AAE8ACAE0A97068566E4 /* FormValidator */ = {
+		3538C989986493FDF39A723530FF81CD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				619ADD119EB9A3AEAF0972B4334C2B58 /* Classes */,
+				74BAD56B2C11EA8F6CE77C47F29213D4 /* FormValidator.swift */,
+				F7286E23396177D1A69AC8798803CA4C /* FVModelField.swift */,
 			);
-			path = FormValidator;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -120,13 +121,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		619ADD119EB9A3AEAF0972B4334C2B58 /* Classes */ = {
+		6AC87D897713A62E373CCB9498188D27 /* FormValidator */ = {
 			isa = PBXGroup;
 			children = (
-				EF7567BD1D70A2CF00C4AA99 /* FormValidator.swift */,
-				EF7567BF1D70A2ED00C4AA99 /* FVModelField.swift */,
+				3538C989986493FDF39A723530FF81CD /* Classes */,
 			);
-			path = Classes;
+			path = FormValidator;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -187,7 +187,7 @@
 		C8555C98B7EF9F26CCBD1CCFBB2226A1 /* FormValidator */ = {
 			isa = PBXGroup;
 			children = (
-				1141EE7CD981AAE8ACAE0A97068566E4 /* FormValidator */,
+				6AC87D897713A62E373CCB9498188D27 /* FormValidator */,
 				DCD6017A00ED79A30EC5D25E7647099B /* Support Files */,
 			);
 			name = FormValidator;
@@ -236,11 +236,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80F9538721B6A625BF17382D1ED1B025 /* Headers */ = {
+		E99B530CDBD5269EE4D6AEB6BEE98A8F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BA52AC90EAF1E2CE1CC5C647F40086C /* FormValidator-umbrella.h in Headers */,
+				68F8F628B1A2F3D803A35AAC9DCA9FEA /* FormValidator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,13 +255,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		88E2229E3C10A5761FE2FF725A743126 /* FormValidator */ = {
+		02699E18DB5B958E71F3A0B2E5A43EAC /* FormValidator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA0B43AE6C83BBE3891CE25B88AC0AEF /* Build configuration list for PBXNativeTarget "FormValidator" */;
+			buildConfigurationList = CB1E8C515D3C8CAD291610A3E7FA7907 /* Build configuration list for PBXNativeTarget "FormValidator" */;
 			buildPhases = (
-				789B869DD6B2EF21C604B7A17BA74DDA /* Sources */,
-				F28E24FED0034AE5EE138249747D9213 /* Frameworks */,
-				80F9538721B6A625BF17382D1ED1B025 /* Headers */,
+				A5AA093A01A6A85E4E03138FCB288EB0 /* Sources */,
+				4D5FE1D92EF45DA47D6EA8785868F4EA /* Frameworks */,
+				E99B530CDBD5269EE4D6AEB6BEE98A8F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -328,7 +328,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88E2229E3C10A5761FE2FF725A743126 /* FormValidator */,
+				02699E18DB5B958E71F3A0B2E5A43EAC /* FormValidator */,
 				8D696036038F831DCB0BA65270761F28 /* Pods-FormValidator_Example */,
 				E5BEE79F4C9A7F7CA651399120E2C1CE /* Pods-FormValidator_Tests */,
 			);
@@ -344,13 +344,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		789B869DD6B2EF21C604B7A17BA74DDA /* Sources */ = {
+		A5AA093A01A6A85E4E03138FCB288EB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF7567C01D70A2ED00C4AA99 /* FVModelField.swift in Sources */,
-				EF7567BE1D70A2CF00C4AA99 /* FormValidator.swift in Sources */,
-				2307BEB67F3FE450204DBB3A878674BA /* FormValidator-dummy.m in Sources */,
+				14A68037F0DE60F5505AC8225AFECC67 /* FormValidator-dummy.m in Sources */,
+				5664D1D56DF04CB2BDAF10F5F937A8FC /* FormValidator.swift in Sources */,
+				AD6E88E7D5E4EFC3126ED9D61F84F88B /* FVModelField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +368,7 @@
 		E4A90F959F7DC035DB661B95ADF0B595 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FormValidator;
-			target = 88E2229E3C10A5761FE2FF725A743126 /* FormValidator */;
+			target = 02699E18DB5B958E71F3A0B2E5A43EAC /* FormValidator */;
 			targetProxy = 2C565AC775D52C968BA20D8651D77BA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,44 +412,10 @@
 			};
 			name = Release;
 		};
-		6A9DEEAC64345DB5A0FDAE5904D130E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15AB21EFA7662CED645AB488EB5559F7 /* Pods-FormValidator_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FormValidator_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FormValidator_Tests/Pods-FormValidator_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FormValidator_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8CFBEE19A266D768F528CB1BC1131EDE /* Debug */ = {
+		2E7572E07A17F79501E581182F52C2CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F3444E1AEE6F5A6173E9E73D65542E32 /* FormValidator.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -476,11 +442,10 @@
 			};
 			name = Debug;
 		};
-		9A58AA4B408CAEBA46B1069D6E86D089 /* Release */ = {
+		49293354DCFD924F4A1B515D7371D077 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F3444E1AEE6F5A6173E9E73D65542E32 /* FormValidator.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -498,6 +463,39 @@
 				MODULEMAP_FILE = "Target Support Files/FormValidator/FormValidator.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = FormValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A9DEEAC64345DB5A0FDAE5904D130E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15AB21EFA7662CED645AB488EB5559F7 /* Pods-FormValidator_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FormValidator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FormValidator_Tests/Pods-FormValidator_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FormValidator_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -678,11 +676,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA0B43AE6C83BBE3891CE25B88AC0AEF /* Build configuration list for PBXNativeTarget "FormValidator" */ = {
+		CB1E8C515D3C8CAD291610A3E7FA7907 /* Build configuration list for PBXNativeTarget "FormValidator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8CFBEE19A266D768F528CB1BC1131EDE /* Debug */,
-				9A58AA4B408CAEBA46B1069D6E86D089 /* Release */,
+				2E7572E07A17F79501E581182F52C2CE /* Debug */,
+				49293354DCFD924F4A1B515D7371D077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

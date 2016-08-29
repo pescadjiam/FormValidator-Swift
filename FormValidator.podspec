@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FormValidator'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'An easier way to validate your forms'
 
 # This description is used to generate tags and improve search results.
@@ -26,13 +26,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FormValidator/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'FormValidator' => ['FormValidator/Assets/*.png']
-  # }
+  s.source_files = 'FormValidator/Classes/**/*.swift'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

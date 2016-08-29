@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import FormValidator
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        F
     }
 }
 
